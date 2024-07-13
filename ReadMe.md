@@ -62,8 +62,6 @@ I'm a skilled Python programmer and experienced web developer. With a strong bac
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sujalrajpoot70)
 
 https://github.com/sujalrajpoot/google_weather_forecast/blob/main/screenshot.png
+
 ## Disclaimer
 This Project only created for education purpose only respect the term and services of Google.
-## Demo
-
-https://github.com/sujalrajpoot/google_weather_forecast/blob/main/screenshot.png
