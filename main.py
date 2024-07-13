@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-def Google_Weather_Scrapper(location_query):
+def Google_Weather_Scrapper(location_query) -> str:
     """
     Get weather information for a specific location.
 
