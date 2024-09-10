@@ -1,5 +1,5 @@
 
-# Google Weather Scraper
+# Project Title
 
 This is a Python script that scrapes weather information from Google for a given location. It uses the requests and BeautifulSoup libraries to fetch and parse the HTML content from Google's search results.
 ## Authors
@@ -17,19 +17,33 @@ This is a Python script that scrapes weather information from Google for a given
 To run the script, simply execute the Python file using your preferred Python interpreter. For example:
 
 ```python
-python main.py
+python Google_Weather.py
 ```
 
 This will prompt you to enter the location you want to check the weather for. For example:
 
 ```python
-location_query = "Delhi"
-weather_info = Google_Weather_Scrapper(location_query)
-print(weather_info)
+if __name__=="__main__":
+    weather = Google_Weather_Scrapper("New York")
+    # Access the weather data
+    print(f"Location: {weather.location}")
+    print(f"Time: {weather.time}")
+    print(f"Condition: {weather.condition}")
+    print(f"Temperature (Celsius): {weather.temperature_celsius}")
+    print(f"Temperature (Fahrenheit): {weather.temperature_fahrenheit}")
+    print(f"Precipitation: {weather.precipitation}")
+    print(f"Humidity: {weather.humidity}")
+    print(f"Wind Speed: {weather.wind_speed}")
 
 Output:
-You're looking at the weather for Delhi as of Saturday, 9:00 am. The current temperature is 31 Degrees Celsius, or 87 Degrees Fahrenheit. The weather is Haze. The precipitation level is 12%, with a 
-humidity of 73%. The wind is blowing at 6 km/h.
+Location: New York, NY, USA
+Time: Tuesday, 12:00 am
+Condition: Cloudy
+Temperature (Celsius): 21
+Temperature (Fahrenheit): 69
+Precipitation: 6%
+Humidity: 54%
+Wind Speed: 13 km/h
 ```
 
 
@@ -60,8 +74,6 @@ I'm a skilled Python programmer and experienced web developer. With a strong bac
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sujalrajpoot.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sujal-rajpoot-469888305/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sujalrajpoot70)
-
-https://github.com/sujalrajpoot/google_weather_forecast/blob/main/screenshot.png
 
 ## Disclaimer
 This Project only created for education purpose only respect the term and services of Google.
